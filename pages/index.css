@@ -1,7 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
 @import url("../blocks/page/page.css");
-@import url("../blocks/page/__header/page__header.css");
+@import url("../blocks/page/__content/page__content.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__languages/header__languages.css");
@@ -9,3 +9,10 @@
 @import url("../blocks/languages/__item/languages__item.css");
 @import url("../blocks/languages/__item-link/languages__item-link.css");
 @import url("../blocks/languages/__item-link/_active/languages__item-link_active.css");
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__subtitle/leead__subtitle.css");
+@import url("../blocks/lead/__picture/lead__picture.css");
+@import url("../blocks/lead/__picture-image/lead__picture-image.css");
+@import url("../blocks/lead/__picture-caption/lead__picture-caption.css");
+

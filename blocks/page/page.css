@@ -9,4 +9,7 @@
   --color: #fff;
   color: var(--color);
   padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
