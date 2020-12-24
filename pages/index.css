@@ -1,3 +1,11 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
 @import url("../blocks/page/page.css");
+@import url("../blocks/page/__header/page__header.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__languages/header__languages.css");
+@import url("../blocks/languages/languages.css");
+@import url("../blocks/languages/__item/languages__item.css");
+@import url("../blocks/languages/__item-link/languages__item-link.css");
+@import url("../blocks/languages/__item-link/_active/languages__item-link_active.css");
