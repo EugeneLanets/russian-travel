@@ -9,10 +9,10 @@
 <body>
   <div class="page">
     <header class="header">
-      <img src="./images/logo.svg" class="header__logo"></img>
+      <img src="./images/logo.svg" class="header__logo" alt="Логотип Путешествия по России">
       <ul class="languages header__languages">
-        <li class="languages__item"><a href="#" class="languages__item-link languages__item-link_active">Ru</a></li>
-        <li class="languages__item"><a href="#" class="languages__item-link">En</a></li>
+        <li class="languages__item"><a href="#" class="languages__item-link languages__item-link_active hover">Ru</a></li>
+        <li class="languages__item"><a href="#" class="languages__item-link hover">En</a></li>
       </ul>
     </header>
     <main class="page__content">
@@ -37,26 +37,26 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="photo-grid">
-        <img src="./images/photogrid/photogrid-1.jpg" alt="Вид из окна поезда">
-        <img src="./images/photogrid/photogrid-2.jpg" alt="Горный хребет под облаками">
-        <img src="./images/photogrid/photogrid-3.jpg" alt="Собака стоит на рулоне сена в поле">
-        <img src="./images/photogrid/photogrid-4.jpg" alt="Вид сверху на туманный зимний лес">
-        <img src="./images/photogrid/photogrid-5.jpg" alt="Колесо автомобиля на льду">
-        <img src="./images/photogrid/photogrid-6.jpg" alt="Пляж и горы на заднем плане">
-        <img src="./images/photogrid/photogrid-7.jpg" alt="Заснеженные вершины гор">
-        <img src="./images/photogrid/photogrid-8.jpg" alt="Знак пешеходного перехода на фоне непонятных бетонных блоков">
-        <img src="./images/photogrid/photogrid-9.jpg" alt="Вид сверху на каменные холмы в тумане">
-        <img src="./images/photogrid/photogrid-10.jpg" alt="Вид на высокую гору в тундре">
-        <img src="./images/photogrid/photogrid-11.jpg" alt="Вид на горы и море">
-        <img src="./images/photogrid/photogrid-12.jpg" alt="Горы в тумане">
-      </section> -->
-      <section class="places">
+      <section class="photo-grid" aria-label="Фотографии России">
+        <img src="./images/photogrid/photogrid-1.jpg" alt="Вид из окна поезда" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-2.jpg" alt="Горный хребет под облаками" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-3.jpg" alt="Собака стоит на рулоне сена в поле" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-4.jpg" alt="Вид сверху на туманный зимний лес" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-5.jpg" alt="Колесо автомобиля на льду" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-6.jpg" alt="Пляж и горы на заднем плане" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-7.jpg" alt="Заснеженные вершины гор" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-8.jpg" alt="Знак пешеходного перехода на фоне непонятных бетонных блоков" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-9.jpg" alt="Вид сверху на каменные холмы в тумане" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-10.jpg" alt="Вид на высокую гору в тундре" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-11.jpg" alt="Вид на горы и море" class="photo-grid__item">
+        <img src="./images/photogrid/photogrid-12.jpg" alt="Горы в тумане" class="photo-grid__item">
+      </section>
+      <section class="places" aria-label="Интересные места России">
         <article class="places__item place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__info">
             <p class="place__info-label">URL</p>
-            <a href="http://park-kosa.ru" class="place__info-link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__info-link hover">park-kosa.ru</a>
           </div>
           <img src="./images/places/kurshskaya.jpg" alt="Куршская коса" class="place__image">
           <div class="place__text">
@@ -68,7 +68,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__info">
             <p class="place__info-label">URL</p>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__info-link">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__info-link hover">National Geographic</a>
           </div>
           <img src="./images/places/murmansk.jpg" alt="Кольский полуостров" class="place__image">
           <div class="place__text">
@@ -82,7 +82,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__info">
             <p class="place__info-label">URL</p>
-            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__info-link">Facebook</a>
+            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__info-link hover">Facebook</a>
           </div>
           <img src="./images/places/altay.jpg" alt="Алтай" class="place__image">
           <div class="place__text">
@@ -95,7 +95,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__info">
             <p class="place__info-label">URL</p>
-            <a href="https://vk.com/baikalmile" class="place__info-link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__info-link hover">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/places/baikal.jpg" alt="Байкал" class="place__image">
           <div class="place__text">
@@ -109,7 +109,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__info">
             <p class="place__info-label">URL</p>
-            <a href="http://vodlozero.ru" class="place__info-link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__info-link hover">http://vodlozero.ru/</a>
           </div>
           <img src="./images/places/karelia.jpg" alt="Карелия" class="place__image">
           <div class="place__text">
@@ -126,13 +126,13 @@
         </a>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer page__footer">
       <ul class="footer__services">
-        <li class="footer__services-item"><a href="https://yandex.ru/maps" class="footer__services-link">Карты</a></li>
-        <li class="footer__services-item"><a href="https://yandex.ru/pogoda" class="footer__services-link">Погода</a></li>
-        <li class="footer__services-item"><a href=" https://rasp.yandex.ru" class="footer__services-link">Расписание</a></li>
-        <li class="footer__services-item"><a href="https://calendar.yandex.ru" class="footer__services-link">Календарь</a></li>
-        <li class="footer__services-item"><a href="https://travel.yandex.ru" class="footer__services-link">Путешествия</a></li>
+        <li class="footer__services-item"><a href="https://yandex.ru/maps" class="footer__services-link hover">Карты</a></li>
+        <li class="footer__services-item"><a href="https://yandex.ru/pogoda" class="footer__services-link hover">Погода</a></li>
+        <li class="footer__services-item"><a href=" https://rasp.yandex.ru" class="footer__services-link hover">Расписание</a></li>
+        <li class="footer__services-item"><a href="https://calendar.yandex.ru" class="footer__services-link hover">Календарь</a></li>
+        <li class="footer__services-item"><a href="https://travel.yandex.ru" class="footer__services-link hover">Путешествия</a></li>
       </ul>
       <p class="footer__copyright">© 2020. Впишите своё имя</p>
     </footer>

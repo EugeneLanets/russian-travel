@@ -1,0 +1,9 @@
+.hover {
+transition: opacity .5s;
+}
+
+.hover:hover,
+.hover:focus {
+  opacity: 0.8;
+  outline: none;
+}

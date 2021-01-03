@@ -1,0 +1,4 @@
+.footer__services-item:not(:last-child) {
+  margin-right: 18px;
+  color: #fff;
+}
