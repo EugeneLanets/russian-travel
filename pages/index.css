@@ -2,6 +2,8 @@
 @import url("../vendor/fonts.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__content/page__content.css");
+@import url("../blocks/page/__cover/page__cover.css");
+
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__languages/header__languages.css");
@@ -21,4 +23,19 @@
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__stats/intro__stats.css");
 @import url("../blocks/intro/__stats-name/intro__stats-name.css");
+/* place for photogrid */
+@import url("../blocks/places/places.css");
+@import url("../blocks/places/__item/places__item.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__info/place__info.css");
+@import url("../blocks/place/__info-label/place__info-label.css");
+@import url("../blocks/place/__info-link/place__info-link.css");
+@import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__text/place__text.css");
+@import url("../blocks/place/__text-paragraph/place__text-paragraph.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__link/cover__link.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
 

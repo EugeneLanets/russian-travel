@@ -1,0 +1,7 @@
+.place__text-paragraph {
+  margin: 0 0 26px;
+}
+
+.place__text-paragraph:last-child {
+  margin-bottom: 0;
+}
