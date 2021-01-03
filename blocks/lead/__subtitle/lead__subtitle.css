@@ -2,6 +2,6 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-  width: 65.04%;
+  max-width: 640px;
   margin: 0 auto 64px;
 }
