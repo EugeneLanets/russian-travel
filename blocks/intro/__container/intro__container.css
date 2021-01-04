@@ -7,3 +7,10 @@
     width: 74.35%;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__container {
+    width: 100%;
+  }
+}
+

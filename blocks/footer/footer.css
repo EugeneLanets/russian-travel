@@ -2,12 +2,18 @@
   width: 92.5%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1279px) {
-  .place {
+  .footer {
     width: 90.625%;
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: 93.75%;
+  }
+}

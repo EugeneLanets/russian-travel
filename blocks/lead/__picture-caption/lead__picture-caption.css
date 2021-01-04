@@ -4,3 +4,9 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__picture-caption {
+    margin-left: 3.125%;
+  }
+}
