@@ -3,3 +3,9 @@
   max-width: 1600px;
   padding-top: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+  .places {
+    width: 90.625%;
+  }
+}

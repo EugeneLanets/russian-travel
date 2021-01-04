@@ -5,3 +5,10 @@
   gap: 16px;
   padding-top: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    width: 90.625%;
+    gap: 14px;
+  }
+}
