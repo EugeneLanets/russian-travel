@@ -10,3 +10,9 @@
     margin-left: 3.125%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .lead__picture-caption {
+    margin-left: 5%;
+  }
+}

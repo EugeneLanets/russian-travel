@@ -2,3 +2,10 @@
   margin-right: 18px;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__services-item:not(:last-child) {
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+}
