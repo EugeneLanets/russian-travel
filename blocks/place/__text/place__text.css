@@ -10,10 +10,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 424px) {
   .place__text {
-    max-width: 90%;
-    margin: 0 5%;
+    width: 90%;
   }
 }
 

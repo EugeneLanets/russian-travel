@@ -5,6 +5,12 @@
 
 @media screen and (max-width: 767px) {
   .footer__services-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer__services-item:not(:last-child) {
     margin-bottom: 32px;
     margin-right: 0;
   }

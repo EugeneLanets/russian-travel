@@ -3,9 +3,16 @@
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 767px) {
+  .footer__services {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .footer__services {
     flex-direction: column;
     margin-bottom: 48px;

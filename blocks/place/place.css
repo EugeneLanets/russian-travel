@@ -32,3 +32,9 @@
     row-gap: 32px;
   }
 }
+
+@media screen and (max-width: 424px) {
+  .place {
+    justify-items: center;
+  }
+}

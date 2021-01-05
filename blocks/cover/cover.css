@@ -24,6 +24,12 @@
 
 @media screen and (max-width: 767px) {
   .cover {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cover {
     min-height: 200px;
   }
 }
