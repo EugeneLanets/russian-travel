@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 1023px) {
   .places__item:not(:last-child) {
-    margin-bottom: 73px;
+    margin-bottom: 72px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places__item:not(:last-child) {
-    margin-bottom: 49px;
+    margin-bottom: 50px;
   }
 }

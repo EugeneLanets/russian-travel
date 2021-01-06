@@ -27,6 +27,7 @@
     grid-template-columns: 1fr;
     grid-template-areas:
     "title"
+    "info"
     "image"
     "text";
     row-gap: 32px;

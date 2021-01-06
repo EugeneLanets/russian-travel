@@ -8,5 +8,6 @@
 * CSS3 -flexbox -grid
 * БЭМ
 
+[Проект опубликован на GitHub Pages](https://eugenelanets.github.io/russian-travel/)
 
 
