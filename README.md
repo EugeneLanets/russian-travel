@@ -1,4 +1,4 @@
-# Проект 3: [Путешествие по России](https://eugenelanets.github.io/russian-travel/)
+# Проект 3: [Путешествие по России](https://projects.lanets.me/russian-travel/)
 
 Учебный проект о путешествиях по России.
 
